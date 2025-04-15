@@ -1,0 +1,7 @@
+train:
+  from: London
+  to: France
+  price: 20.0
+logging:
+  level:
+    com.example.trainticket: INFO
