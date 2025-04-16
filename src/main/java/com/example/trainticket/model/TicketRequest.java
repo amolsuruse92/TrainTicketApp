@@ -8,12 +8,10 @@ public class TicketRequest {
     private String to;
 
     // Constructor
-    public TicketRequest(String firstName, String lastName, String email, String from, String to) {
+    public TicketRequest(String firstName, String lastName, String email) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.email = email;
-        this.from = from;
-        this.to = to;
     }
 
     // Getters and setters
@@ -25,10 +23,4 @@ public class TicketRequest {
 
     public String getEmail() { return email; }
     public void setEmail(String email) { this.email = email; }
-
-    public String getFrom() { return from; }
-    public void setFrom(String from) { this.from = from; }
-
-    public String getTo() { return to; }
-    public void setTo(String to) { this.to = to; }
 }
